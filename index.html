@@ -747,6 +747,64 @@
               ease: "power2.out",
             },
             "-=0.5",
+          )
+          // nv-1, nv-2 xuất hiện từ trái sang
+          .fromTo(
+            ".tab1 .item-nv.nv-1",
+            {
+              xPercent: -120,
+              opacity: 0,
+            },
+            {
+              xPercent: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.5",
+          )
+          .fromTo(
+            ".tab1 .item-nv.nv-2",
+            {
+              xPercent: -120,
+              opacity: 0,
+            },
+            {
+              xPercent: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.6",
+          )
+          // nv-3, nv-4 xuất hiện từ phải sang
+          .fromTo(
+            ".tab1 .item-nv.nv-3",
+            {
+              xPercent: 120,
+              opacity: 0,
+            },
+            {
+              xPercent: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.6",
+          )
+          .fromTo(
+            ".tab1 .item-nv.nv-4",
+            {
+              xPercent: 120,
+              opacity: 0,
+            },
+            {
+              xPercent: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.6",
           );
       }, 500);
     });
