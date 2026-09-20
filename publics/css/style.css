@@ -636,11 +636,10 @@ header #menu_mobile a span {
 
 .tab1 .text-slogan {
     position: absolute;
-    left: 50%;
-    top: 38%;
-    transform: translate(-50%, -50%);
+    top: 20%;
     width: 30%;
-    z-index: 2;
+    z-index: 1;
+    left: 35.4%;
 }
 
 .tab1 .list-text {
@@ -733,7 +732,7 @@ header #menu_mobile a span {
 
     .tab1 .text-slogan {
         width: 88%;
-        top: 38%;
+        left: 7.2%;
     }
 
     .tab1 .list-text {
@@ -952,7 +951,7 @@ header #menu_mobile a span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 40%;
+    top: 44%;
     gap: 4vw;
 }
 
@@ -965,7 +964,7 @@ header #menu_mobile a span {
 }
 
 .tab3 .main-content .milestone-layout .milestone-nav {
-    width: 84%;
+    width: 78%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -987,7 +986,7 @@ header #menu_mobile a span {
 
 .tab3 .main-content .milestone-layout .milestone-item {
     position: absolute;
-    width: 84%;
+    width: 86%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1005,7 +1004,7 @@ header #menu_mobile a span {
     color: #EADCB5;
     font-size: 1.6vw;
     position: absolute;
-    top: -60%;
+    top: -50%;
     font-family: 'Gastie';
     text-shadow:
         1px 1px #000,
@@ -1422,11 +1421,10 @@ header #menu_mobile a span {
 
 .tab7 .text-slogan {
     position: absolute;
-    left: 50%;
-    top: 38%;
-    transform: translate(-50%, -50%);
+    top: 20%;
     width: 30%;
-    z-index: 2;
+    z-index: 1;
+    left: 35.4%;
 }
 
 .tab7 .list-text {
@@ -1465,7 +1463,7 @@ header #menu_mobile a span {
 @media (max-width: 767px) {
     .tab7 .text-slogan {
         width: 88%;
-        top: 38%;
+        left: 7.2%;
     }
 
     .tab7 .list-text {
