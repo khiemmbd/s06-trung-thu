@@ -742,74 +742,30 @@
     gsap.registerPlugin(ScrollTrigger);
 
     // GSAP Animation - Các item trong list-item_center xuất hiện từ từ khi scroll
-    gsap.fromTo(
-      ".tab4 .list-news .item",
-      {
-        opacity: 0,
-        scale: 0.5,
-        y: 30,
-      },
-      {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 0.6,
-        stagger: 0.15,
-        ease: "back.out(1.7)",
-        scrollTrigger: {
-          trigger: ".tab4 .list-news",
-          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
-          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
-          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+    ["tab4", "tab5", "tab6"].forEach((tab) => {
+      gsap.fromTo(
+        `.${tab} .list-news .item`,
+        {
+          opacity: 0,
+          scale: 0.5,
+          y: 30,
         },
-      },
-    );
-
-    gsap.fromTo(
-      ".tab5 .list-news .item",
-      {
-        opacity: 0,
-        scale: 0.5,
-        y: 30,
-      },
-      {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 0.6,
-        stagger: 0.15,
-        ease: "back.out(1.7)",
-        scrollTrigger: {
-          trigger: ".tab5 .list-news",
-          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
-          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
-          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+        {
+          opacity: 1,
+          scale: 1,
+          y: 0,
+          duration: 0.6,
+          stagger: 0.15,
+          ease: "back.out(1.7)",
+          scrollTrigger: {
+            trigger: `.${tab} .list-news`,
+            start: "top 80%", // Khi top của list chạm 80% viewport
+            end: "top 50%", // Khi top của list chạm 50% viewport
+            toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+          },
         },
-      },
-    );
-
-    gsap.fromTo(
-      ".tab6 .list-news .item",
-      {
-        opacity: 0,
-        scale: 0.5,
-        y: 30,
-      },
-      {
-        opacity: 1,
-        scale: 1,
-        y: 0,
-        duration: 0.6,
-        stagger: 0.15,
-        ease: "back.out(1.7)",
-        scrollTrigger: {
-          trigger: ".tab6 .list-news",
-          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
-          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
-          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
-        },
-      },
-    );
+      );
+    });
   </script>
 
   <script>
