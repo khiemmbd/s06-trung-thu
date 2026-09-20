@@ -113,7 +113,7 @@
           <img src="publics/images/logo-18-mobi.webp" class="mobi" />
         </div>
 
-        <div class="text-slogan">
+        <div class="text-slogan" style="opacity: 0">
           <img src="publics/images/tab1/text-slogan.webp" width="100%" />
           <img
             src="publics/images/tab1/text-slogan.webp"
@@ -123,18 +123,18 @@
         </div>
 
         <div class="list-text">
-          <div class="item">
+          <div class="item item-1" style="opacity: 0">
             <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
             <span>ALPHA TEST 10:00 19/09/2026</span>
           </div>
 
-          <div class="item">
+          <div class="item item-2" style="opacity: 0">
             <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
             <span>OPEN BETA 15:00 23/09/2026</span>
           </div>
         </div>
 
-        <div class="btn-brightness btn-dkt">
+        <div class="btn-brightness btn-dkt" style="opacity: 0">
           <img src="publics/images/tab1/btn-dkt.webp" />
         </div>
 
@@ -682,6 +682,72 @@
 
       setTimeout(() => {
         loading.style.display = "none";
+
+        // TAB 1
+        const tab1Gsap = gsap.timeline({
+          defaults: {
+            ease: "power2.out",
+          },
+        });
+
+        tab1Gsap.timeScale(2);
+        tab1Gsap
+          .fromTo(
+            ".tab1 .text-slogan",
+            {
+              y: -500,
+              opacity: 0,
+            },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 1,
+              ease: "bounce.out",
+            },
+            "-=0.5",
+          )
+          .fromTo(
+            ".tab1 .list-text .item-1",
+            {
+              y: 200,
+              opacity: 0,
+            },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.3",
+          )
+          .fromTo(
+            ".tab1 .list-text .item-2",
+            {
+              y: 200,
+              opacity: 0,
+            },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.6",
+          )
+          .fromTo(
+            ".tab1 .btn-dkt",
+            {
+              y: 200,
+              opacity: 0,
+            },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 0.8,
+              ease: "power2.out",
+            },
+            "-=0.5",
+          );
       }, 500);
     });
 
