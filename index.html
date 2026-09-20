@@ -1,841 +1,829 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="publics/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Dòng Máu Anh Hùng</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="publics/css/style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <title>Dòng Máu Anh Hùng</title>
-</head>
-
-<body>
-  <div id="loading" class="active">
-    <div class="spinner-wrapper">
-      <div class="spinner"></div>
-      <img src="publics/images/logo-skw.webp" class="logo" />
-    </div>
-  </div>
-
-  <div id="content">
-    <div class="load-api">
-      <span class="element"></span>
-      <span class="element"></span>
-      <span class="element"></span>
+  <body>
+    <div id="loading" class="active">
+      <div class="spinner-wrapper">
+        <div class="spinner"></div>
+        <img src="publics/images/logo-skw.webp" class="logo" />
+      </div>
     </div>
 
-    <header>
-      <div class="main-header">
-        <div class="mobi">
-          <div class="logo">
-            <img src="publics/images/logo-main-nv.webp" />
-            <p>
-              Thiên Long <br />
-              Bất Bại Origin
-            </p>
-          </div>
-
-          <div class="main-content">
-            <div class="link_dowload gz-AndroidOS">
-              <a>
-                <img src="publics/images/down-ios.webp" width="100%" />
-              </a>
-
-              <a>
-                <img src="publics/images/down-apk.webp" width="100%" />
-              </a>
-            </div>
-            <div id="btn-menu_mobile" class="cursor-pointer" onclick="handleMenuMobile()">
-              <div class="item_menu top"></div>
-              <div class="item_menu center"></div>
-              <div class="item_menu bottom"></div>
-            </div>
-          </div>
-        </div>
-
-        <div id="menu_mobile">
-          <a>
-            <span>
-              <img src="publics/images/ic-home.webp" />
-            </span>
-            Trang chủ
-          </a>
-          <a>
-            <span>
-              <img src="publics/images/ic-fb.webp" />
-            </span>
-            Fanpage
-          </a>
-          <a>
-            <span>
-              <img src="publics/images/ic-commu.webp" />
-            </span>
-            Cộng Đồng
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <section class="tab1">
-      <div class="background">
-        <img src="publics/images/tab1/bg-desk-1.webp" class="desk" />
-        <img src="publics/images/tab1/bg-mobi-1.webp" class="mobi" />
+    <div id="content">
+      <div class="load-api">
+        <span class="element"></span>
+        <span class="element"></span>
+        <span class="element"></span>
       </div>
 
-      <div class="nav-top">
-        <img src="publics/images/tab1/nav-top.webp" width="100%">
-
-        <div class="nav-top_item">
-          <div class="logo-text">
-            <img src="publics/images/logo-main-text.webp" width="100%" />
-            <img src="publics/images/logo-main-text.webp" class="lightSweep" width="100%" />
-          </div>
-
-          <a> Trang Chủ </a>
-          <a> Giới Thiệu </a>
-          <a> Đặc Sắc </a>
-          <a> Bang Hội </a>
-        </div>
-      </div>
-
-      <div class="warning">
-        <img src="publics/images/logo-18-desk.webp" class="desk" />
-        <img src="publics/images/logo-18-mobi.webp" class="mobi" />
-      </div>
-
-      <div class="text-slogan">
-        <img src="publics/images/tab1/text-slogan.webp" width="100%" />
-        <img src="publics/images/tab1/text-slogan.webp" width="100%" class="lightSweep" />
-      </div>
-
-      <div class="list-text">
-        <div class="item">
-          <img src="publics/images/tab1/bg-text-alpha.webp" width="100%">
-          <span>ALPHA TEST 10:00 19/09/2026</span>
-        </div>
-
-        <div class="item">
-          <img src="publics/images/tab1/bg-text-alpha.webp" width="100%">
-          <span>OPEN BETA 15:00 23/09/2026</span>
-        </div>
-      </div>
-
-      <div class="btn-brightness btn-dkt">
-        <img src="publics/images/tab1/btn-dkt.webp">
-      </div>
-
-      <div class="item-gift">
-        <img src="publics/images/tab1/item-gift.webp" class="animation-tada" width="100%">
-      </div>
-
-      <div class="list-nv">
-        <div class="item-nv nv-1">
-          <img src="publics/images/tab1/nv-1.webp">
-        </div>
-        <div class="item-nv nv-2">
-          <img src="publics/images/tab1/nv-2.webp">
-        </div>
-        <div class="item-nv nv-3">
-          <img src="publics/images/tab1/nv-3.webp">
-        </div>
-        <div class="item-nv nv-4">
-          <img src="publics/images/tab1/nv-4.webp">
-        </div>
-      </div>
-
-    </section>
-
-    <section class="tab2">
-      <div class="background">
-        <img src="publics/images/tab2/bg-desk.webp" class="desk" />
-        <img src="publics/images/tab2/bg-mobi.webp" class="mobi" />
-      </div>
-
-      <div class="title">
-        <img src="publics/images/tab2/title.webp" width="100%">
-      </div>
-
-      <div class="frame-login">
-        <img src="publics/images/tab2/bg-login.webp">
-
-        <div class="frame-login_content">
-          <div class="list-input">
-            <div class="item">
-              <img src="publics/images/tab2/input-name.webp">
-              <input type="text" placeholder="Tên Tài Khoản">
+      <header>
+        <div class="main-header">
+          <div class="mobi">
+            <div class="logo">
+              <img src="publics/images/logo-main-nv.webp" />
+              <p>
+                Thiên Long <br />
+                Bất Bại Origin
+              </p>
             </div>
 
-            <div class="item">
-              <img src="publics/images/tab2/input-phone.webp">
-              <input type="text" placeholder="Mật Khẩu">
-            </div>
+            <div class="main-content">
+              <div class="link_dowload gz-AndroidOS">
+                <a>
+                  <img src="publics/images/down-ios.webp" width="100%" />
+                </a>
 
-            <div class="item">
-              <img src="publics/images/tab2/input-email.webp">
-              <input type="text" placeholder="Email">
-            </div>
-
-          </div>
-
-          <div class="privacy">
-            <input type="checkbox" id="dieu-khoan" name="dieu-khoan">
-            <label for="dieu-khoan">Tôi đồng ý với điều khoản dịch vụ và chính sách bảo mật</label>
-          </div>
-
-          <div class="btn-brightness btn-dkt">
-            <img src="publics/images/tab2/btn-dkt.webp">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tab3">
-      <div class="background">
-        <img src="publics/images/tab3/bg-desk.webp" class="desk" />
-        <img src="publics/images/tab3/bg-mobi.webp" class="mobi" />
-      </div>
-
-      <div class="title">
-        <img src="publics/images/tab3/title.webp" width="100%">
-      </div>
-
-      <p id="count_register">
-        đang có <span>10.000</span> người đăng ký
-      </p>
-
-      <div class="main-content">
-        <div class="milestone-layout">
-          <div class="milestone-nav">
-            <div class="milestone-nav_img">
-              <img src="publics/images/tab3/nav-milestone.webp" class="desk">
-              <img src="publics/images/tab3/nav-milestone-mobi.webp" class="mobi">
-            </div>
-            <div class="milestone-nav_active"></div>
-          </div>
-
-          <div class="milestone-item">
-            <div class="item">
-              <img src="publics/images/tab3/milestone-icon.webp" class="miletone-item_img">
-              <span>1000</span>
-            </div>
-
-            <div class="item">
-              <img src="publics/images/tab3/milestone-icon.webp" class="miletone-item_img">
-              <span>5000</span>
-            </div>
-
-            <div class="item">
-              <img src="publics/images/tab3/milestone-icon.webp" class="miletone-item_img">
-              <span>10000</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="milestone-gift">
-          <div class="item">
-            <div class="item-img">
-              <img src="publics/images/tab3/bg-gift.webp">
-              <span>Quà Mốc 1</span>
-            </div>
-
-            <div class="item-btn btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Nhận Quà</span>
+                <a>
+                  <img src="publics/images/down-apk.webp" width="100%" />
+                </a>
+              </div>
+              <div
+                id="btn-menu_mobile"
+                class="cursor-pointer"
+                onclick="handleMenuMobile()"
+              >
+                <div class="item_menu top"></div>
+                <div class="item_menu center"></div>
+                <div class="item_menu bottom"></div>
+              </div>
             </div>
           </div>
 
-          <div class="item">
-            <div class="item-img">
-              <img src="publics/images/tab3/bg-gift.webp">
-              <span>Quà Mốc 1</span>
-            </div>
-
-            <div class="item-btn btn-brightness active">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Nhận Quà</span>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="item-img">
-              <img src="publics/images/tab3/bg-gift.webp">
-              <span>Quà Mốc 1</span>
-            </div>
-
-            <div class="item-btn btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Nhận Quà</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tab4">
-      <div class="background">
-        <img src="publics/images/tab4/bg-desk-1.webp" class="desk" />
-        <img src="publics/images/tab4/bg-mobi-1.webp" class="mobi" />
-      </div>
-
-      <div class="title">
-        <img src="publics/images/tab4/title.webp" width="100%">
-      </div>
-
-      <div class="list-news">
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab4/bg-news.webp">
-          <p class="item-title">
-            Đua Top Cấp Độ
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tab5">
-      <div class="background">
-        <img src="publics/images/tab5/bg-desk-1.webp" class="desk" />
-        <img src="publics/images/tab5/bg-mobi-1.webp" class="mobi" />
-      </div>
-
-      <div class="title">
-        <img src="publics/images/tab5/title.webp" width="100%">
-      </div>
-
-      <div class="list-news">
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab5/bg-news.webp">
-          <p class="item-title">
-            Thiên Long
-          </p>
-          <div class="list-action">
-            <div class="action-text">
-              <img src="publics/images/tab5/btn-dang-tuyen.webp">
-            </div>
-
-            <div class="btn-brightness">
-              <img src="publics/images/tab3/btn-nhan.webp">
-              <span>Vào Nhóm Zalo</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tab6">
-      <div class="background">
-        <img src="publics/images/tab6/bg-desk-1.webp" class="desk" />
-        <img src="publics/images/tab6/bg-mobi-1.webp" class="mobi" />
-      </div>
-
-      <div class="title">
-        <img src="publics/images/tab6/title.webp" width="100%">
-      </div>
-
-      <div class="list-news">
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-        <div class="item">
-          <img src="publics/images/tab6/bg-news.webp">
-          <p class="item-title">
-            Phiên Bản Cổ Điển 9 Môn Phái
-          </p>
-          <div class="btn-brightness">
-            <img src="publics/images/tab3/btn-nhan.webp">
-            <span>Xem Chi Tiết</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tab7">
-      <div class="background">
-        <img src="publics/images/tab7/bg-desk-1.webp" class="desk" />
-        <img src="publics/images/tab7/bg-mobi-1.webp" class="mobi" />
-      </div>
-
-      <div class="text-slogan">
-        <img src="publics/images/tab1/text-slogan.webp" width="100%" />
-        <img src="publics/images/tab1/text-slogan.webp" width="100%" class="lightSweep" />
-      </div>
-
-      <div class="list-text">
-        <div class="item">
-          <img src="publics/images/tab1/bg-text-alpha.webp" width="100%">
-          <span>ALPHA TEST 10:00 19/09/2026</span>
-        </div>
-
-        <div class="item">
-          <img src="publics/images/tab1/bg-text-alpha.webp" width="100%">
-          <span>OPEN BETA 15:00 23/09/2026</span>
-        </div>
-      </div>
-
-      <div class="btn-brightness btn-dkt">
-        <img src="publics/images/tab1/btn-dkt.webp">
-      </div>
-    </section>
-
-    <footer>
-      <div class="content">
-        <div class="logo">
-          <img src="publics/images/logo-skw.webp" class="logo-gzone" />
-          <img src="publics/images/footer-warning.webp" class="footer-warning" />
-          <a href="https://giayphep.abei.gov.vn/g1/132077" target="_blank" rel="noopener noreferrer">
-            <img src="https://giayphep.abei.gov.vn/images/license/GameG1.svg" width="100%" />
-          </a>
-        </div>
-
-        <div class="main-content">
-          <div>
-            <a href="https://skw.vn" target="_blank">About Skw | </a>
-            <a href="https://skw.vn/support/ask/dieu-khoan-662a1509783b4" target="_blank">Điều Khoản | </a>
-            <a href="https://id.skw.vn" target="_blank">Tài Khoản | </a>
-            <a href="https://skw.vn/payment" target="_blank">Nạp Thẻ |
+          <div id="menu_mobile">
+            <a>
+              <span>
+                <img src="publics/images/ic-home.webp" />
+              </span>
+              Trang chủ
             </a>
-            <a href="https://skw.vn/support" target="_blank">Hỗ trợ KH</a>
+            <a>
+              <span>
+                <img src="publics/images/ic-fb.webp" />
+              </span>
+              Fanpage
+            </a>
+            <a>
+              <span>
+                <img src="publics/images/ic-commu.webp" />
+              </span>
+              Cộng Đồng
+            </a>
           </div>
-          <div>
-            <p>CÔNG TY CỔ PHẦN SKYWAY</p>
-            <p>Email: hotro@skw.vn | Hotline: 1900 088 885</p>
-            <p>Thời gian: 8:00 - 22:00 tất cả các ngày (GMT + 7)</p>
-            <p>
-              Giấy phép G1 số: Số 214/QĐ-PTTH&TTĐT ngày 29/04/2026
-            </p>
-            <p>Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe</p>
-            <p>Chịu trách nhiệm nội dung: Ông Nguyễn Văn Thắng</p>
+        </div>
+      </header>
+
+      <section class="tab1">
+        <div class="background">
+          <img src="publics/images/tab1/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab1/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="nav-top">
+          <img src="publics/images/tab1/nav-top.webp" width="100%" />
+
+          <div class="nav-top_item">
+            <div class="logo-text">
+              <img src="publics/images/logo-main-text.webp" width="100%" />
+              <img
+                src="publics/images/logo-main-text.webp"
+                class="lightSweep"
+                width="100%"
+              />
+            </div>
+
+            <a> Trang Chủ </a>
+            <a> Giới Thiệu </a>
+            <a> Đặc Sắc </a>
+            <a> Bang Hội </a>
           </div>
         </div>
 
         <div class="warning">
-          <img src="publics/images/footer-warning.webp" class="img-warning" />
-
-          <a href="https://giayphep.abei.gov.vn/g1/132077" target="_blank" rel="noopener noreferrer">
-            <img src="https://giayphep.abei.gov.vn/images/license/GameG1.svg" width="100%" />
-          </a>
+          <img src="publics/images/logo-18-desk.webp" class="desk" />
+          <img src="publics/images/logo-18-mobi.webp" class="mobi" />
         </div>
-      </div>
-    </footer>
 
-    <!-- POPUP -->
-    <div id="popup" class="">
-      <div id="backdrop" class="" onclick="closePopup()"></div>
-      <div class="main-popup">
-        <div id="popup-warning" class="item-popup">
-          <div class="bg-popup">
-            <img src="publics/images/popup/popup-bg.webp" width="100%" />
+        <div class="text-slogan">
+          <img src="publics/images/tab1/text-slogan.webp" width="100%" />
+          <img
+            src="publics/images/tab1/text-slogan.webp"
+            width="100%"
+            class="lightSweep"
+          />
+        </div>
+
+        <div class="list-text">
+          <div class="item">
+            <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
+            <span>ALPHA TEST 10:00 19/09/2026</span>
           </div>
-          <div class="btn-close" onclick="closePopup()">
-            <img src="publics/images/popup/btn-close.webp" />
+
+          <div class="item">
+            <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
+            <span>OPEN BETA 15:00 23/09/2026</span>
+          </div>
+        </div>
+
+        <div class="btn-brightness btn-dkt">
+          <img src="publics/images/tab1/btn-dkt.webp" />
+        </div>
+
+        <div class="item-gift">
+          <img
+            src="publics/images/tab1/item-gift.webp"
+            class="animation-tada"
+            width="100%"
+          />
+        </div>
+
+        <div class="list-nv">
+          <div class="item-nv nv-1">
+            <img src="publics/images/tab1/nv-1.webp" />
+          </div>
+          <div class="item-nv nv-2">
+            <img src="publics/images/tab1/nv-2.webp" />
+          </div>
+          <div class="item-nv nv-3">
+            <img src="publics/images/tab1/nv-3.webp" />
+          </div>
+          <div class="item-nv nv-4">
+            <img src="publics/images/tab1/nv-4.webp" />
+          </div>
+        </div>
+      </section>
+
+      <section class="tab2">
+        <div class="background">
+          <img src="publics/images/tab2/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab2/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="title">
+          <img src="publics/images/tab2/title.webp" width="100%" />
+        </div>
+
+        <div class="frame-login">
+          <img src="publics/images/tab2/bg-login.webp" />
+
+          <div class="frame-login_content">
+            <div class="list-input">
+              <div class="item">
+                <img src="publics/images/tab2/input-name.webp" />
+                <input type="text" placeholder="Tên Tài Khoản" />
+              </div>
+
+              <div class="item">
+                <img src="publics/images/tab2/input-phone.webp" />
+                <input type="text" placeholder="Mật Khẩu" />
+              </div>
+
+              <div class="item">
+                <img src="publics/images/tab2/input-email.webp" />
+                <input type="text" placeholder="Email" />
+              </div>
+            </div>
+
+            <div class="privacy">
+              <input type="checkbox" id="dieu-khoan" name="dieu-khoan" />
+              <label for="dieu-khoan"
+                >Tôi đồng ý với điều khoản dịch vụ và chính sách bảo mật</label
+              >
+            </div>
+
+            <div class="btn-brightness btn-dkt">
+              <img src="publics/images/tab2/btn-dkt.webp" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab3">
+        <div class="background">
+          <img src="publics/images/tab3/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab3/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="title">
+          <img src="publics/images/tab3/title.webp" width="100%" />
+        </div>
+
+        <p id="count_register">đang có <span>10.000</span> người đăng ký</p>
+
+        <div class="main-content">
+          <div class="milestone-layout">
+            <div class="milestone-nav">
+              <div class="milestone-nav_img">
+                <img
+                  src="publics/images/tab3/nav-milestone.webp"
+                  class="desk"
+                />
+                <img
+                  src="publics/images/tab3/nav-milestone-mobi.webp"
+                  class="mobi"
+                />
+              </div>
+              <div class="milestone-nav_active"></div>
+            </div>
+
+            <div class="milestone-item">
+              <div class="item">
+                <img
+                  src="publics/images/tab3/milestone-icon.webp"
+                  class="miletone-item_img"
+                />
+                <span>1000</span>
+              </div>
+
+              <div class="item">
+                <img
+                  src="publics/images/tab3/milestone-icon.webp"
+                  class="miletone-item_img"
+                />
+                <span>5000</span>
+              </div>
+
+              <div class="item">
+                <img
+                  src="publics/images/tab3/milestone-icon.webp"
+                  class="miletone-item_img"
+                />
+                <span>10000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone-gift">
+            <div class="item">
+              <div class="item-img">
+                <img src="publics/images/tab3/bg-gift.webp" />
+                <span>Quà Mốc 1</span>
+              </div>
+
+              <div class="item-btn btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Nhận Quà</span>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-img">
+                <img src="publics/images/tab3/bg-gift.webp" />
+                <span>Quà Mốc 1</span>
+              </div>
+
+              <div class="item-btn btn-brightness active">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Nhận Quà</span>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item-img">
+                <img src="publics/images/tab3/bg-gift.webp" />
+                <span>Quà Mốc 1</span>
+              </div>
+
+              <div class="item-btn btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Nhận Quà</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab4">
+        <div class="background">
+          <img src="publics/images/tab4/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab4/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="title">
+          <img src="publics/images/tab4/title.webp" width="100%" />
+        </div>
+
+        <div class="list-news">
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab4/bg-news.webp" />
+            <p class="item-title">Đua Top Cấp Độ</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab5">
+        <div class="background">
+          <img src="publics/images/tab5/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab5/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="title">
+          <img src="publics/images/tab5/title.webp" width="100%" />
+        </div>
+
+        <div class="list-news">
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab5/bg-news.webp" />
+            <p class="item-title">Thiên Long</p>
+            <div class="list-action">
+              <div class="action-text">
+                <img src="publics/images/tab5/btn-dang-tuyen.webp" />
+              </div>
+
+              <div class="btn-brightness">
+                <img src="publics/images/tab3/btn-nhan.webp" />
+                <span>Vào Nhóm Zalo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab6">
+        <div class="background">
+          <img src="publics/images/tab6/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab6/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="title">
+          <img src="publics/images/tab6/title.webp" width="100%" />
+        </div>
+
+        <div class="list-news">
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+          <div class="item">
+            <img src="publics/images/tab6/bg-news.webp" />
+            <p class="item-title">Phiên Bản Cổ Điển 9 Môn Phái</p>
+            <div class="btn-brightness">
+              <img src="publics/images/tab3/btn-nhan.webp" />
+              <span>Xem Chi Tiết</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab7">
+        <div class="background">
+          <img src="publics/images/tab7/bg-desk.webp" class="desk" />
+          <img src="publics/images/tab7/bg-mobi.webp" class="mobi" />
+        </div>
+
+        <div class="text-slogan">
+          <img src="publics/images/tab1/text-slogan.webp" width="100%" />
+          <img
+            src="publics/images/tab1/text-slogan.webp"
+            width="100%"
+            class="lightSweep"
+          />
+        </div>
+
+        <div class="list-text">
+          <div class="item">
+            <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
+            <span>ALPHA TEST 10:00 19/09/2026</span>
+          </div>
+
+          <div class="item">
+            <img src="publics/images/tab1/bg-text-alpha.webp" width="100%" />
+            <span>OPEN BETA 15:00 23/09/2026</span>
+          </div>
+        </div>
+
+        <div class="btn-brightness btn-dkt">
+          <img src="publics/images/tab1/btn-dkt.webp" />
+        </div>
+      </section>
+
+      <footer>
+        <div class="content">
+          <div class="logo">
+            <img src="publics/images/logo-skw.webp" class="logo-gzone" />
+            <img
+              src="publics/images/footer-warning.webp"
+              class="footer-warning"
+            />
+            <a
+              href="https://giayphep.abei.gov.vn/g1/132077"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://giayphep.abei.gov.vn/images/license/GameG1.svg"
+                width="100%"
+              />
+            </a>
           </div>
 
           <div class="main-content">
-            <div class="content-popup">
-              <div class="icon-warning">
-                <img src="publics/images/popup/icon-warning.webp" width="100%">
-              </div>
+            <div>
+              <a href="https://skw.vn" target="_blank">About Skw | </a>
+              <a
+                href="https://skw.vn/support/ask/dieu-khoan-662a1509783b4"
+                target="_blank"
+                >Điều Khoản |
+              </a>
+              <a href="https://id.skw.vn" target="_blank">Tài Khoản | </a>
+              <a href="https://skw.vn/payment" target="_blank">Nạp Thẻ | </a>
+              <a href="https://skw.vn/support" target="_blank">Hỗ trợ KH</a>
+            </div>
+            <div>
+              <p>CÔNG TY CỔ PHẦN SKYWAY</p>
+              <p>Email: hotro@skw.vn | Hotline: 1900 088 885</p>
+              <p>Thời gian: 8:00 - 22:00 tất cả các ngày (GMT + 7)</p>
+              <p>Giấy phép G1 số: Số 214/QĐ-PTTH&TTĐT ngày 29/04/2026</p>
+              <p>Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe</p>
+              <p>Chịu trách nhiệm nội dung: Ông Nguyễn Văn Thắng</p>
+            </div>
+          </div>
 
-              <p class="text-warning">
-                người chơi cần vào trang chủ để<br> xác thực số điện thoại
-              </p>
+          <div class="warning">
+            <img src="publics/images/footer-warning.webp" class="img-warning" />
 
-              <p class="text-info">
-                Để tuân thủ quy định pháp luật và tăng cường bảo mật<br> tài khoản, người chơi cần xác thực số tài khoản
-                điện<br> thoại di động
-                chính chủ tại Việt Nam
-              </p>
+            <a
+              href="https://giayphep.abei.gov.vn/g1/132077"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://giayphep.abei.gov.vn/images/license/GameG1.svg"
+                width="100%"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
 
-              <div class="list-btn">
-                <a class="btn-brightness">
-                  <img src="publics/images/popup/btn-redirect.webp" width="100%">
-                </a>
+      <!-- POPUP -->
+      <div id="popup" class="">
+        <div id="backdrop" class="" onclick="closePopup()"></div>
+        <div class="main-popup">
+          <div id="popup-warning" class="item-popup">
+            <div class="bg-popup">
+              <img src="publics/images/popup/popup-bg.webp" width="100%" />
+            </div>
+            <div class="btn-close" onclick="closePopup()">
+              <img src="publics/images/popup/btn-close.webp" />
+            </div>
 
-                <div onclick="closePopup()" class="btn-brightness">
-                  <img src="publics/images/popup/btn-close-2.webp" width="100%">
+            <div class="main-content">
+              <div class="content-popup">
+                <div class="icon-warning">
+                  <img
+                    src="publics/images/popup/icon-warning.webp"
+                    width="100%"
+                  />
+                </div>
+
+                <p class="text-warning">
+                  người chơi cần vào trang chủ để<br />
+                  xác thực số điện thoại
+                </p>
+
+                <p class="text-info">
+                  Để tuân thủ quy định pháp luật và tăng cường bảo mật<br />
+                  tài khoản, người chơi cần xác thực số tài khoản điện<br />
+                  thoại di động chính chủ tại Việt Nam
+                </p>
+
+                <div class="list-btn">
+                  <a class="btn-brightness">
+                    <img
+                      src="publics/images/popup/btn-redirect.webp"
+                      width="100%"
+                    />
+                  </a>
+
+                  <div onclick="closePopup()" class="btn-brightness">
+                    <img
+                      src="publics/images/popup/btn-close-2.webp"
+                      width="100%"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- END POPUP -->
     </div>
-    <!-- END POPUP -->
-  </div>
-</body>
+  </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script>
-  // ANIMATION LOADING
-  $(document).ready(function () {
-    $("#loading").addClass("hide");
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    // ANIMATION LOADING
+    $(document).ready(function () {
+      $("#loading").addClass("hide");
 
-    setTimeout(() => {
-      loading.style.display = "none";
-    }, 500);
-  });
+      setTimeout(() => {
+        loading.style.display = "none";
+      }, 500);
+    });
 
-  // HEADER
-  function handleMenuMobile() {
-    $("#btn-menu_mobile").toggleClass("active");
-    $("#menu_mobile").toggleClass("active");
-  }
+    // HEADER
+    function handleMenuMobile() {
+      $("#btn-menu_mobile").toggleClass("active");
+      $("#menu_mobile").toggleClass("active");
+    }
 
-  let isOpen = true;
-
-  // TAB 1
-  $("#btn-toggle-redirect").click(function () {
-    let items = $(".layout-redirect .item");
-    isOpen = !isOpen;
-
-    $(this).find("img").toggleClass("hide");
-
-    if (!isOpen) {
-      $(items.get().reverse()).each(function (index) {
-        setTimeout(() => $(this).addClass("hide-item"), index * 60);
-      });
-    } else {
-      items.each(function (index) {
-        setTimeout(() => $(this).removeClass("hide-item"), index * 60);
+    function scrollToTab2() {
+      const element = document.querySelector(".tab2");
+      element.scrollIntoView({
+        behavior: "smooth",
       });
     }
-  });
 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+    // POPUP
+    function openPopup(
+      element,
+      mess = null,
+      mess2 = null,
+      image = null,
+      giftCode = null,
+      mess3 = null,
+    ) {
+      closePopup();
+      $("#popup").addClass("active");
+      // $("#backdrop").addClass("active");
+      $("html").css("overflow", "hidden");
+      $(`#${element}`).addClass("active");
 
-  function scrollToTab2() {
-    const element = document.querySelector(".tab2");
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  }
+      if (giftCode) {
+        $("#popup_mess-noti").html(mess);
+        $("#giftcode-text").text(giftCode);
+        $("#giftcode-wrapper").show();
+      } else {
+        $("#popup_mess-noti").html(mess);
+        $("#giftcode-wrapper").hide();
+      }
+      $("#popup_mess-noti-2").html(mess2);
+      $("#popup_mess-noti-3").html(mess3);
+      $("#popup_img-gift img").attr("src", image);
+    }
 
-  // POPUP
-  function openPopup(
-    element,
-    mess = null,
-    mess2 = null,
-    image = null,
-    giftCode = null,
-    mess3 = null,
-  ) {
-    closePopup();
-    $("#popup").addClass("active");
-    // $("#backdrop").addClass("active");
-    $("html").css("overflow", "hidden");
-    $(`#${element}`).addClass("active");
-
-    if (giftCode) {
-      $("#popup_mess-noti").html(mess);
-      $("#giftcode-text").text(giftCode);
-      $("#giftcode-wrapper").show();
-    } else {
-      $("#popup_mess-noti").html(mess);
+    function closePopup() {
+      $("html").css("overflow", "auto");
+      $("#popup").removeClass("active");
+      $(".item-popup").removeClass("active");
+      $("#popup_mess-noti").html("");
+      $("#popup_mess-noti-2").html("");
+      $("#popup_mess-noti-3").html("");
       $("#giftcode-wrapper").hide();
     }
-    $("#popup_mess-noti-2").html(mess2);
-    $("#popup_mess-noti-3").html(mess3);
-    $("#popup_img-gift img").attr("src", image);
-  }
+  </script>
 
-  function closePopup() {
-    $("html").css("overflow", "auto");
-    $("#popup").removeClass("active");
-    $(".item-popup").removeClass("active");
-    $("#popup_mess-noti").html("");
-    $("#popup_mess-noti-2").html("");
-    $("#popup_mess-noti-3").html("");
-    $("#giftcode-wrapper").hide();
-  }
+  <script>
+    // GSAP ScrollTrigger Animation cho các phần tử item
+    gsap.registerPlugin(ScrollTrigger);
 
-  // Copy giftcode
-  function copyGiftCode() {
-    const giftCode = $("#giftcode-text").text();
-
-    // Fallback method cho tất cả các trình duyệt (hoạt động tốt nhất)
-    const textArea = document.createElement("textarea");
-    textArea.value = giftCode;
-    textArea.style.position = "fixed";
-    textArea.style.left = "-9999px";
-    document.body.appendChild(textArea);
-    textArea.select();
-    textArea.setSelectionRange(0, 99999);
-
-    try {
-      document.execCommand("copy");
-      const btn = $("#giftcode-wrapper button");
-      const originalText = btn.text();
-      btn.text("Đã copy!");
-      btn.css("background", "#2E7D32");
-      setTimeout(() => {
-        btn.text(originalText);
-        btn.css("background", "#4CAF50");
-      }, 1500);
-    } catch (err) {
-      console.error("Copy failed:", err);
-      alert("Không thể copy tự động. Vui lòng copy thủ công: " + giftCode);
-    } finally {
-      document.body.removeChild(textArea);
-    }
-  }
-
-</script>
-
-<script>
-  // GSAP ScrollTrigger Animation cho các phần tử gift
-  gsap.registerPlugin(ScrollTrigger);
-
-  // Animate các phần tử .gift trong list-gift
-  const gifts = document.querySelectorAll(".tab4 .list-gift .gift");
-
-  gifts.forEach((gift, index) => {
-    // Set trạng thái ban đầu
-    gsap.set(gift, {
-      opacity: 0,
-      y: 50,
-      scale: 0.8,
-    });
-
-    // Tạo animation khi scroll
-    gsap.to(gift, {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      duration: 0.8,
-      ease: "back.out(1.7)",
-      scrollTrigger: {
-        trigger: ".tab4 .list-gift .gift",
-        start: "top 80%", // Bắt đầu animation khi list-gift tới 80% viewport
-        end: "bottom 20%",
-        toggleActions: "play none none reverse", // Play khi scroll xuống, reverse khi scroll lên
+    // GSAP Animation - Các item trong list-item_center xuất hiện từ từ khi scroll
+    gsap.fromTo(
+      ".tab4 .list-news .item",
+      {
+        opacity: 0,
+        scale: 0.5,
+        y: 30,
       },
-      delay: index * 0.2, // Delay mỗi phần tử 0.2s
-    });
-  });
-
-  // GSAP Animation - Các item trong list-item_center xuất hiện từ từ khi scroll
-  gsap.fromTo(
-    "#list_item_reward .item",
-    {
-      opacity: 0,
-      scale: 0.5,
-      y: 30,
-    },
-    {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      duration: 0.6,
-      stagger: 0.15,
-      ease: "back.out(1.7)",
-      scrollTrigger: {
-        trigger: "#list_item_reward",
-        start: "top 80%", // Khi top của list-item_center chạm 80% viewport
-        end: "top 50%", // Khi top của list-item_center chạm 20% viewport
-        toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: ".tab4 .list-news",
+          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
+          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
+          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+        },
       },
-    },
-  );
-</script>
+    );
 
-<script>
-  $("#popup-lich-su .tab-content").hide();
-  $("#popup-lich-su #notification").show();
-  $("#popup-lich-su .tab-button").eq(0).addClass("gz-brightness-125");
+    gsap.fromTo(
+      ".tab5 .list-news .item",
+      {
+        opacity: 0,
+        scale: 0.5,
+        y: 30,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: ".tab5 .list-news",
+          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
+          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
+          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+        },
+      },
+    );
 
-  $("#popup-lich-su .tab-button").click(function () {
-    var tabId = $(this).data("tab");
-    $(".tab-content").hide();
-    $("#" + tabId).show();
+    gsap.fromTo(
+      ".tab6 .list-news .item",
+      {
+        opacity: 0,
+        scale: 0.5,
+        y: 30,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: ".tab6 .list-news",
+          start: "top 80%", // Khi top của list-item_center chạm 80% viewport
+          end: "top 50%", // Khi top của list-item_center chạm 20% viewport
+          toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+        },
+      },
+    );
+  </script>
 
-    $("#popup-lich-su .tab-button").removeClass("gz-brightness-125");
-    $(this).addClass("gz-brightness-125");
-  });
-</script>
+  <script>
+    $("#popup-lich-su .tab-content").hide();
+    $("#popup-lich-su #notification").show();
+    $("#popup-lich-su .tab-button").eq(0).addClass("gz-brightness-125");
 
+    $("#popup-lich-su .tab-button").click(function () {
+      var tabId = $(this).data("tab");
+      $(".tab-content").hide();
+      $("#" + tabId).show();
+
+      $("#popup-lich-su .tab-button").removeClass("gz-brightness-125");
+      $(this).addClass("gz-brightness-125");
+    });
+  </script>
 </html>
