@@ -797,6 +797,29 @@
   // GSAP ScrollTrigger Animation cho các phần tử item
   gsap.registerPlugin(ScrollTrigger);
 
+  // GSAP Animation - frame-login xuất hiện khi scroll đến
+  gsap.fromTo(
+    ".frame-login",
+    {
+      opacity: 0,
+      scale: 0.5,
+      y: 100,
+    },
+    {
+      opacity: 1,
+      scale: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "back.out(1.7)",
+      scrollTrigger: {
+        trigger: ".frame-login",
+        start: "top 80%", // Khi top của frame-login chạm 80% viewport
+        end: "top 50%",
+        toggleActions: "play none none reverse", // Play khi đi xuống, reverse khi đi lên
+      },
+    },
+  );
+
   // GSAP Animation - Các item trong list-item_center xuất hiện từ từ khi scroll
   ["tab4", "tab5", "tab6"].forEach((tab) => {
     gsap.fromTo(
